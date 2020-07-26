@@ -66,7 +66,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  currentUser: selectCartItemsCount,
+  currentUser: setCurrentUser,
 });
 
 const mapDispatchToProps = (dispatch) => ({
